@@ -1,5 +1,9 @@
 package modelos;
 
+import javax.persistence.*;
+
+@Entity
+@DiscriminatorValue("hora")
 public class EmpleadoHora extends Empleado{
 	private double valorHora;
 	private int horasTrabajadas;
