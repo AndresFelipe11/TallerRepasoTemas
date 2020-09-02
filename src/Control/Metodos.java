@@ -1,5 +1,7 @@
-package Control;
+package control;
 
 public class Metodos {
+	
+	
 
 }
