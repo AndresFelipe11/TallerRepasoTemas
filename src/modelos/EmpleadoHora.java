@@ -4,6 +4,10 @@ public class EmpleadoHora extends Empleado{
 	private double valorHora;
 	private int horasTrabajadas;
 	
+	public EmpleadoHora() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public EmpleadoHora(String identificador, String nombre, double valorHora, int horasTrabajadas) {
 		super(identificador, nombre);
 		this.valorHora = valorHora;
@@ -18,4 +22,21 @@ public class EmpleadoHora extends Empleado{
 		}
 		return valorHora*horasTrabajadas; 
 	}
+
+	public double getValorHora() {
+		return valorHora;
+	}
+
+	public void setValorHora(double valorHora) {
+		this.valorHora = valorHora;
+	}
+
+	public int getHorasTrabajadas() {
+		return horasTrabajadas;
+	}
+
+	public void setHorasTrabajadas(int horasTrabajadas) {
+		this.horasTrabajadas = horasTrabajadas;
+	}
+	
 }
